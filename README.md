@@ -31,4 +31,4 @@ Path and filenames are hardcoded in the python file and have to be changed.
 
 To run this python-script avro support has to be installed:
 
-easy_install avro
+```easy_install avro```
