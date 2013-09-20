@@ -27,8 +27,12 @@ Caused by: java.io.IOException: Invalid sync!
 
 In my case this little python script helped to repair the file. Maybe it's useful for somebody else...
 
-Path and filenames are hardcoded in the python file and have to be changed.
-
 To run this python-script avro support has to be installed:
 
 ```easy_install avro```
+
+usage:
+```
+python repair.py schema.json brokenfile.avro repairedfile.avro
+```
+
