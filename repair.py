@@ -4,7 +4,7 @@ from avro.datafile import DataFileReader, DataFileWriter
 from avro.io import DatumReader, DatumWriter
 
 if len(sys.argv) != 4:
-    print "Usage: python repair.py /path/to/schema.json brokenfile.avro repairedfile.avro"
+    print "Usage: python repair.py <schema-file> <broken-file> <repaired-file>"
     sys.exit(0)
     
 schemafile = sys.argv[1]
