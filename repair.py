@@ -8,7 +8,7 @@ if len(sys.argv) != 4:
     sys.exit(0)
     
 schemafile = sys.argv[1]
-infile=sys.arv[2]
+infile=sys.argv[2]
 outfile=sys.argv[3]
 
 schema = avro.schema.parse(open(schemafile).read())
